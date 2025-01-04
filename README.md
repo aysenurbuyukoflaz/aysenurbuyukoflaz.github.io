@@ -22,5 +22,5 @@ Projeyi bilgisayarınıza indirmek için aşağıdaki adımları takip edebilirs
 
 1. Bu depo'yu kendi bilgisayarınıza klonlayın:
    ```bash
-   git clone https://github.com/aysenurbuyukoflaz/adim-adim-konya.git
+   git clone https://github.com/aysenurbuyukoflaz/html-ile-basit-website.git
 . 
