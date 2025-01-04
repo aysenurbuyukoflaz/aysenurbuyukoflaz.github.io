@@ -1,0 +1,220 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    background: url(konya5.jpg);
+    height: 120vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container .navbar{
+    width: 100%;
+    height: 80px;
+    background: rgba(22, 112, 214, 0.4);
+}
+
+.navbar .logo{
+    display: inline-block;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+.navbar .logo a{
+    text-decoration: none;
+    font-size: 50px;
+    -webkit-text-stroke-color: white;
+    -webkit-text-stroke-width: 1px;   
+    font-family: 'Times New Roman';
+    color: rgb(0, 0, 255);
+
+}
+.navbar ul{
+    float: right;
+    margin-right: 20px;
+}
+
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 8px;
+    line-height: 80px;
+}
+
+.navbar ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 6px 13px;
+    font-family: Tahoma;
+}
+
+.navbar ul li a.active,
+.navbar ul li a:hover{
+    background-color:blue;
+    border-radius: 2px;
+    transition: 0.5s all ease-in-out; 
+}
+
+
+
+
+.container .center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: sans-serif;
+    user-select: none;
+    font-size: 40px;
+    color: cornsilk;
+    -webkit-text-stroke: black;
+    -webkit-text-stroke-width: 1px;
+    text-align: center;
+}
+
+.center h1,
+.center h2 {
+    color: white;
+    font-size: 70px;
+    font-weight: bold;
+    width: 900px;
+    text-align: center;
+}
+
+table {
+    margin: 30px auto; /* Tablonun çevresinde 30px boşluk bırakır ve ortalar */
+    border-collapse: collapse;
+    width: 60%; /* Tablonun genişliğini sınırlandırır */
+}
+
+th, td {
+    padding: 12px;
+    text-align: center; /* Tablodaki verileri ortalar */
+    border: 1px solid #ddd; /* Kenarlık rengi */
+}
+
+th {
+    background-color: #f2f2f2; /* Başlık hücresinin arka plan rengi */
+    font-weight: bold;
+}
+
+tr:hover {
+    background-color: #eaeaea; /* Satıra üzerine gelindiğinde renk değişimi */
+}
+
+a {
+    text-decoration: none; /* Alt çizgiyi kaldır */
+    color: #007BFF; /* Mavi renk */
+    font-weight: bold;
+}
+
+a:hover {
+    color: #0056b3; /* Hover (fareyle üzerine gelindiğinde) rengi */
+}
+
+.center .buttons{
+    margin: 10px 280px;
+    text-align: center;
+}
+
+.buttons button{
+    height: 50px;
+    width: 150px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #ffb3b3;
+    background: rgb(200, 96 ,120);
+    border: solid 1px red;
+    cursor: pointer;
+    outline: none;
+    border-radius: 25px;
+}
+
+.buttons button:hover{
+    background: #fff;
+    transition: .5s all ease-in-out;
+}
+
+.harita{
+    height: 120vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: inline-block;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+.yazi{
+    width: 800px;
+    position: absolute;
+    top: 45%;
+    left: 70%;
+    transform: translate(-50%,-50%);
+    font-family:Tahoma;
+    user-select: none;
+    font-size: 25px;
+    color: white;
+    -webkit-text-stroke: black;
+    -webkit-text-stroke-width: .5px;
+    background-color: rgba(173, 216,230 , 0.5) ;
+}
+.metin h3{
+    width: 900px;
+    top: 20%;
+    left: 70%;
+    transform: translate(35%,50%);
+    font-family: Tahoma;
+    color: rgb(1, 53, 105);
+    -webkit-text-stroke: whitesmoke;
+    -webkit-text-stroke-width: .4px;
+    font-size: 29px;
+}
+
+.metin h4{
+    width: 900px;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-family: Tahoma;
+    user-select: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(41, 123, 200);
+    -webkit-text-stroke: whitesmoke;
+    -webkit-text-stroke-width: .4px;
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
+.yemek h5{
+    width: 900px;
+    top: 20%;
+    left: 70%;
+    transform: translate(35%,50%);
+    font-family: Tahoma;
+    color: rgb(1, 53, 105);
+    -webkit-text-stroke: whitesmoke;
+    -webkit-text-stroke-width: .4px;
+    font-size: 29px;
+}
+
+.yemek h6{
+    width: 900px;
+    position: absolute;
+    top: 45%;
+    left: 21%;
+    transform: translateY(50px);
+    font-family: Tahoma;
+    user-select: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(41, 123, 200);
+    -webkit-text-stroke: whitesmoke;
+    -webkit-text-stroke-width: .4px;
+    background-color: rgba(255, 255, 255, 0.4);
+}
